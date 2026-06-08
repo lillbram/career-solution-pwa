@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#1E9E6B" />
+  <!-- Sprout shape -->
+  <path d="M256 360C256 360 170 290 170 210C170 165 205 140 240 140C255 140 255 160 256 170C256 160 256 140 272 140C307 140 342 165 342 210C342 290 256 360 256 360Z" fill="white" />
+  <path d="M256 170V360" stroke="#1E9E6B" stroke-width="12" stroke-linecap="round" />
+</svg>

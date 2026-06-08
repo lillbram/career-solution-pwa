@@ -1,0 +1,304 @@
+<USER_REQUEST>
+use this for homepage
+
+/* iPhone 17 - 1 */
+
+position: absolute;
+width: 402px;
+height: 874px;
+left: 1209px;
+top: 193px;
+
+background: #F3FBF7;
+
+
+/* Frame 1000005004 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 369px;
+height: 991px;
+left: 15px;
+top: 136px;
+
+
+
+/* Frame 1296 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 355px;
+height: 70px;
+
+background: #1E9E6B;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1295 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+margin: 0 auto;
+width: 335px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1294 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 146px;
+
+width: 335px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 138px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Complete your profile */
+
+width: 138px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 85% */
+
+width: 29px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+paddin
+<truncated 42854 bytes>
+side auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Messages */
+
+position: absolute;
+width: 48px;
+height: 15px;
+left: 0px;
+top: 0.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #3D7A60;
+
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+
+margin: 0 auto;
+width: 56px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* ProfileIcon */
+
+width: 24px;
+height: 24px;
+
+opacity: 0.7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 16.67%;
+bottom: 50%;
+
+border: 1.8px solid #3D7A60;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 58.33%;
+bottom: 16.67%;
+
+border: 1.8px solid #3D7A60;
+
+
+/* Text */
+
+width: 30.05px;
+height: 15px;
+
+opacity: 0.7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Profile */
+
+position: absolute;
+width: 31px;
+height: 15px;
+left: 0px;
+top: 0.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #3D7A60;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 5px;
+left: 32.59%;
+right: 34.08%;
+bottom: 9px;
+
+background: #000000;
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-26T20:44:02+07:00.
+
+The user's current state is as follows:
+Active Document: /Users/mac/Documents/career-solution-pwa/index.html (LANGUAGE_HTML)
+Cursor is on line: 1150
+Other open documents:
+- /Users/mac/Documents/career-solution-pwa/index.html (LANGUAGE_HTML)
+- /Users/mac/Documents/career-solution-pwa/service-worker.jsx (LANGUAGE_JAVASCRIPT)
+- /Users/mac/Documents/career-solution-pwa/manifest.json (LANGUAGE_JSON)
+Running terminal commands:
+- python3 -m http.server 8001 (in /Users/mac/Documents/career-solution-pwa, running for 20h41m51s)
+</ADDITIONAL_METADATA>
