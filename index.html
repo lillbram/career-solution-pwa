@@ -7495,15 +7495,15 @@
       // ─── Shared Auth Logo ────────────────────────────────────────────
       const LM_LOGO_SRC = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAALCAYAAAA5vw7pAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAA2NJREFUeAHdVF1sjGkUPu/7zvjma5c23Sxdim5UYjGzUit2b3YjuxfbZLPZBAkhvUFChBS9EP8XQkQkfuMvuCAV0QhCXCgZEaSNYBoX/pJqiMYo7ZjxzTffz3s8M1G+UlyQECc5c95z3nPe85yfb4jeokxj9cyg3nW4ejUzCfpKSQaV5I4x31kp+itoSyf1wPbNsUlB2+VFo8sS9bHi9z1aVFQ0OM/v0z9G8P01bBh1xcXF5UG7aZoVEL3yhoKKKA1NSHf4NXe3ThwwcmHz80IB3aystP4Dx/Ovg5RamWN9EcdjPbaWJdFVTFwlJCX/39dGnZY/NRKJ/MnMIVfrFrjUG6YZhRxBzI+07+9U4XAd7r9nokuS+SgJsQ56f0/rUUqIgw7zYMTseZXiPPyq8eZ+27bjPXl7TcDPyNnZDB/JJq21eT2xNPbPk3bP7E6KO/QBulI3rhJiEfZsKNoweXiZAUnnNFETC3EKSY7ibjiA/6w9bzWADhJSzmCtHehr4DvNZ16gmVt9FJF/E3HjBPNP8NGIKwXP7yt3rwmkO/UZn0UURUyJzxrT1tbq1rq2Tg0ZHXp6aV50serHTb9tudlamJYQP7QsHzu0kCzrlrCQHaQpTj7Tsxf+IHTrupSyGcCBiwcAQH8E5ZRSXZyPl1LB/tB13WuGUt2cf1LKlPL9JwDvFXIQzSBZ6PEJ3Nf29SH2msD1G4nDVkpXo4B9rkPLs53eipKBKmG/oENMzuke8KzpAX5nihw1FFiERgimDuT6GzyhvSvXjJW4n7Os3bZl7QXQjpCUNyD7AcgBzjeV6CqS3y8kZk6Q1gfBU1DGbjRnJ7p/C+B34a4E/C+8GiDb8g0IYn6nqKbasTHf1dtdm8az5nvY6ZgSvL7m2K1l9IlUCnIcZyQmk81kMjfpM1Cff4/Ha0bVOzbPx2UlOtpY5v84fVI87tEnUjgSOSuV2oROVxnhcIPtOBuRY5hQagO+hblaiG34eP+D6zBM6x7kc0xjPCQGyo04/2IaxvpuUM+bob4SpR+7xwXL38OK5ky9ereJ6DZ9DgJYlzwvitUYgt2vgmki9j3Fvl8Om+tlsxeUadblcWGFHuKuHGtjIq4VK1eFlTsZBP9lqLIyQm8aFwYbgXOBKioqzNc6/AN6iL41eglzuI9BGayHQQAAAABJRU5ErkJggg==";
 
-      function HummingbirdSVG({ size = 72 }) {
+      function HummingbirdSVG({ size = 72, color = "#0C4D34" }) {
         return React.createElement("svg", { width: size, height: size, viewBox: "0 0 120 110", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
-          React.createElement("path", { d: "M58 58 C42 54 22 38 28 16 C20 36 32 56 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C50 48 38 30 48 12 C44 32 50 52 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C66 44 82 24 78 8 C80 28 70 48 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C72 52 92 44 96 30 C86 46 70 56 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C68 60 84 64 80 70 C74 68 62 62 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C52 68 44 82 38 80 C44 74 52 66 58 58Z", fill: "#0C4D34" }),
-          React.createElement("path", { d: "M58 58 C56 70 52 86 46 86 C50 78 54 68 58 58Z", fill: "#0C4D34" })
+          React.createElement("path", { d: "M58 58 C42 54 22 38 28 16 C20 36 32 56 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C50 48 38 30 48 12 C44 32 50 52 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C66 44 82 24 78 8 C80 28 70 48 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C72 52 92 44 96 30 C86 46 70 56 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C68 60 84 64 80 70 C74 68 62 62 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C52 68 44 82 38 80 C44 74 52 66 58 58Z", fill: color }),
+          React.createElement("path", { d: "M58 58 C56 70 52 86 46 86 C50 78 54 68 58 58Z", fill: color })
         );
       }
 
@@ -7514,6 +7514,75 @@
           React.createElement("div", { style: { display: "flex", alignItems: "center", gap: "6px", marginTop: "2px" } },
             React.createElement("span", { style: { fontFamily: "Inter", fontWeight: "400", fontSize: "11px", color: "#888" } }, "Powered by"),
             React.createElement("img", { src: LM_LOGO_SRC, height: "14", style: { display: "block" }, alt: "LeMondial Career" })
+          )
+        );
+      }
+
+      // ─── Demo Landing Screen ─────────────────────────────────────────
+      function DemoLandingScreen({ onLaunch }) {
+        const features = [
+          { icon: "🔍", label: "Job Search" },
+          { icon: "📄", label: "Apply 1-Tap" },
+          { icon: "📝", label: "Resume Builder" },
+          { icon: "🤝", label: "Recruitment" },
+          { icon: "💬", label: "AI Matching" },
+          { icon: "🎓", label: "Career Coach" },
+        ];
+        return React.createElement("div", {
+          style: {
+            position: "absolute", top: 0, left: 0, width: "402px", height: "874px",
+            background: "linear-gradient(160deg, #060E18 0%, #0A1A12 55%, #071410 100%)",
+            display: "flex", flexDirection: "column", alignItems: "center",
+            justifyContent: "center", zIndex: 30, overflow: "hidden", padding: "0 36px",
+            boxSizing: "border-box",
+          }
+        },
+          // Background glow
+          React.createElement("div", { style: { position: "absolute", width: "320px", height: "320px", borderRadius: "50%", background: "radial-gradient(circle, rgba(30,158,107,0.16) 0%, transparent 70%)", top: "42%", left: "50%", transform: "translate(-50%,-50%)", pointerEvents: "none" } }),
+
+          // Badge
+          React.createElement("div", { style: { display: "flex", alignItems: "center", gap: "6px", background: "rgba(30,158,107,0.12)", border: "1px solid rgba(30,158,107,0.35)", borderRadius: "20px", padding: "5px 12px", marginBottom: "28px" } },
+            React.createElement("div", { style: { width: "6px", height: "6px", borderRadius: "50%", background: "#1E9E6B", flexShrink: 0 } }),
+            React.createElement("span", { style: { fontFamily: "Inter", fontWeight: "600", fontSize: "10px", color: "#1E9E6B", letterSpacing: "1px" } }, "INTERACTIVE DEMO")
+          ),
+
+          // Logo block
+          React.createElement("div", { style: { display: "flex", alignItems: "center", gap: "10px", marginBottom: "24px", background: "rgba(255,255,255,0.06)", borderRadius: "14px", padding: "10px 16px" } },
+            React.createElement(HummingbirdSVG, { size: 32, color: "#FFFFFF" }),
+            React.createElement("span", { style: { fontFamily: "Inter", fontWeight: "700", fontSize: "18px", color: "#FFFFFF" } }, "Career Solution")
+          ),
+
+          // Headline
+          React.createElement("h1", { style: { fontFamily: "Inter", fontWeight: "800", fontSize: "28px", color: "#FFFFFF", textAlign: "center", lineHeight: "1.25", margin: "0 0 14px 0", letterSpacing: "-0.5px" } },
+            "Explore a fully-loaded ",
+            React.createElement("span", { style: { color: "#1E9E6B" } }, "Career Platform")
+          ),
+
+          // Description
+          React.createElement("p", { style: { fontFamily: "Inter", fontWeight: "400", fontSize: "13px", color: "rgba(255,255,255,0.5)", textAlign: "center", lineHeight: "1.7", margin: "0 0 32px 0" } },
+            "Browse jobs, build your resume, and connect with top recruiters — with realistic pre-seeded data. No account needed."
+          ),
+
+          // CTA Button
+          React.createElement("button", {
+            onClick: onLaunch,
+            style: { width: "100%", height: "52px", background: "#1E9E6B", color: "#FFFFFF", border: "none", borderRadius: "14px", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", marginBottom: "24px", boxShadow: "0 0 28px rgba(30,158,107,0.45)" }
+          },
+            React.createElement("span", { style: { fontSize: "16px" } }, "▶"),
+            "Launch Demo"
+          ),
+
+          // Feature chips
+          React.createElement("div", { style: { display: "flex", flexWrap: "wrap", gap: "8px", justifyContent: "center", marginBottom: "24px" } },
+            features.map(f => React.createElement("div", { key: f.label, style: { display: "flex", alignItems: "center", gap: "6px", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "20px", padding: "6px 12px" } },
+              React.createElement("span", { style: { fontSize: "12px" } }, f.icon),
+              React.createElement("span", { style: { fontFamily: "Inter", fontWeight: "500", fontSize: "12px", color: "rgba(255,255,255,0.7)" } }, f.label)
+            ))
+          ),
+
+          // Footer note
+          React.createElement("p", { style: { fontFamily: "Inter", fontSize: "11px", color: "rgba(255,255,255,0.28)", textAlign: "center", lineHeight: "1.6", margin: 0, position: "absolute", bottom: "36px", padding: "0 36px", boxSizing: "border-box" } },
+            "Demo data is reset each session. All job listings and profiles are fictional."
           )
         );
       }
@@ -7894,9 +7963,7 @@
 
       function CareerSolutionApp() {
         const [isLoggedIn, setIsLoggedIn] = useState(false);
-        const [screenPhase, setScreenPhase] = useState(() =>
-          typeof localStorage !== "undefined" && localStorage.getItem("cs_seen") ? "auth" : "splash"
-        );
+        const [screenPhase, setScreenPhase] = useState("landing");
         const [authMode, setAuthMode] = useState("login");
         const [onboardingIdx, setOnboardingIdx] = useState(0);
 
@@ -8213,7 +8280,14 @@
                       : "#f8f9f8",
                 },
               },
-              screenPhase === "splash"
+              screenPhase === "landing"
+                ? React.createElement(DemoLandingScreen, {
+                    onLaunch: () => {
+                      const nextPhase = localStorage.getItem("cs_seen") ? "auth" : "splash";
+                      setScreenPhase(nextPhase);
+                    }
+                  })
+                : screenPhase === "splash"
                 ? React.createElement(SplashScreen)
                 : screenPhase === "onboarding"
                   ? React.createElement(OnboardingScreen, {
