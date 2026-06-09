@@ -1,0 +1,17 @@
+{
+  "name": "career-solution-pwa",
+  "version": "1.0.0",
+  "description": "Career Solution - Mobile job platform PWA powered by LeMondial",
+  "author": "Abraham Bob Ellson",
+  "license": "MIT",
+  "homepage": "https://lillbram.github.io/career-solution-pwa",
+  "keywords": [
+    "pwa",
+    "job-platform",
+    "career",
+    "lemondial"
+  ],
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
