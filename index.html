@@ -8283,7 +8283,7 @@
               screenPhase === "landing"
                 ? React.createElement(DemoLandingScreen, {
                     onLaunch: () => {
-                      const nextPhase = localStorage.getItem("cs_seen") ? "auth" : "splash";
+                      const nextPhase = localStorage.getItem("cs_seen") ? "auth" : "onboarding";
                       setScreenPhase(nextPhase);
                     }
                   })
